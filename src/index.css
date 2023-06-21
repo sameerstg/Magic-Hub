@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: linear-gradient(to right,  #02162A 42.01%, #023955 95.76%);
+ 
+}
+.navbar {
+  background-image: url('../src/Assets/Images/Nav-bg.png');
+}
+
+.buynow-button{
+
+padding: 8px 45.98px 8px 46.02px;
+
+
+width: 165px;
+height: 50px;
+left: 613px;
+top: 2px;
+
+background: radial-gradient(50% 50% at 50% 50%, #033A61 0%, #000C18 100%);
+border: 2px solid #FFFFFF;
+box-shadow: 1px 3px 0px #2AABE6;
+border-radius: 7px 0px 7px 7px;
+}
+.navbar-button{
+  /* position: absolute; */
+  width: 80px;
+  height: 34px;
+  left: -18px;
+  top: 3px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  /* identical to box height, or 189% */
+  
+ 
+  
+  text-decoration-line: underline;
+  
+  color: #060132;
+}
+.navbar-list{
+  position: absolute;
+width: 800px;
+height: 34px;
+left: 534px;
+top: 39px;
+}
+.hero{
+  
+  background-repeat: no-repeat;
+  
+  background-image: url("../src/Assets/Images/Coin-Hero.png");
+  
+
+
+}
+.section2-icon{
+  height: 40px;
+  width: 40px;
+
+}
