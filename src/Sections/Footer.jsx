@@ -35,7 +35,7 @@ function Footer() {
                     </ul>
                     <div className='flex w-full mx-auto justify-center'>
                         <img className='h-32 flex' src={logo} alt="" />
-                        <div className='flex  flex-col justify-center text-center text-3xl font-bold w-auto w-40'>MAGIC HUB</div>
+                        <div className='flex  flex-col justify-center text-center text-3xl font-bold  w-40'>MAGIC HUB</div>
                     </div>
                     
                 

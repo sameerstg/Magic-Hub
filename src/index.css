@@ -66,3 +66,27 @@ top: 39px;
   width: 40px;
 
 }
+.border-box-section3{
+  
+width: 519px;
+height: 560px;
+left: 155px;
+top: 1732px;
+
+background: #06192C;
+border: 2px solid #50C6FB;
+box-shadow: 0px 0px 10px #50C6FB;
+border-radius: 20px;
+}
+.box-section6{
+  
+width: 413px;
+height: 362px;
+left: 75px;
+top: 4272px;
+
+background: #06192C;
+border: 2px solid #50C6FB;
+box-shadow: 0px 0px 10px #50C6FB;
+border-radius: 20px;
+}
