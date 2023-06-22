@@ -6,7 +6,7 @@ import Facebook from '../Assets/Images/Facebook.png'
 import RoundButton from '../Components/RoundButton'
 function Section1() {
     return (
-        <div className=' text-white  grid md:grid-cols-2'>
+        <div className=' text-white mx-auto w-full grid grid-cols-2'>
 
             <div className='flex mx-auto w-full flex-col justify-center px-40'>
                 <h1 className="font-bold  text-5xl py-5">Magic Hub (MHUB)</h1>
@@ -38,7 +38,7 @@ function Section1() {
                     </li>
                 </ul>
             </div>
-            <img src={Coin} alt="" />
+            <img className='w-full mx-auto justify-center' src={Coin} alt="" />
 
         </div>
 

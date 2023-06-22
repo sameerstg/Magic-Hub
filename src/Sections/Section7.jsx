@@ -8,8 +8,8 @@ function Section7() {
     return (
         <div className="text-white my-20 px-6" >
             <div className="px-28 text-6xl font-bold">RoadMap</div>
-            <div className="flex px-16 py-10 justify-center">
-                <div className="mx-10">
+            <div className=" py-10 grid grid-cols-4 ">
+                <div className="mx-auto w-80">
                     <img src={p1} alt="" />
 
                     <div className="text-[#4EC0F4] text-[25px] font-semibold">
@@ -22,7 +22,7 @@ function Section7() {
                     <li className="text-[18px]">Business plan developmenth</li>
                 </div>
 
-                <div className="py-20 mx-10">
+                <div className="mx-auto py-20 w-80">
                     <img src={p2} alt="" />
                     <div className="text-[#6B85E2] text-[25px] font-semibold">
                         MagicHub V1.0 Launch
@@ -44,9 +44,9 @@ function Section7() {
 
                 </div>
 
-                <div className="mx-10">
-                    <img src={p3} alt="" />{" "}
-                    <div className="text-[#E4A74A] text-[25px] font-semibold">
+                <div className="mx-auto w-80">
+                    <img className="" src={p3} alt="" />{" "}
+                    <div className="text-[#E4A74A] text-[25px] font-semibold mx-auto w-full">
                         Ecosystem Expanding Development
                     </div>
                     <li className="text-[18px]">GameFi Features Development
@@ -56,10 +56,26 @@ function Section7() {
                     <li className="text-[18px]">EVM utility expanding development</li>
 
                 </div>
+                <div className="mx-auto w-80">
+                    <img className="mx-auto" src={p3} alt="" />{" "}
+                    <div className="text-[#E4A74A] text-[25px] font-semibold mx-auto ">
+                    GameFi Features Released and Ecosystem Expanding
 
-                <div className="py-5 mx-10">
-                    <img src={p4} alt="" />{" "}
-                    <div className="text-[#96F0EA] text-[25px] font-semibold">
+                    </div>
+                    <li className="text-[18px]">GameFi Features 
+
+                    </li>
+                    <li className="text-[18px]">GameFi Features Testing</li>
+                    <li className="text-[18px]">Marketing Push in scale</li>
+                    <li className="text-[18px]">GameFi Features Completed</li>
+                    <li className="text-[18px]">Official Release of GameFi Features</li>
+                    <li className="text-[18px]">Ecosystem Expanding</li>
+                    <li className="text-[18px]">Will be updated and revealed!</li>
+
+                </div>
+                {/* <div className="mx-auto py-5 ">
+                    <img className="mx-auto" src={p4} alt="" />{" "}
+                    <div className="text-[#96F0EA] text-[25px] font-semibold ">
                         GameFi Features Released
                         and Ecosystem Expanding
                     </div>
@@ -74,7 +90,7 @@ function Section7() {
                     <li className="text-[18px]">Official Release of GameFi Features</li>
                     <li className="text-[18px]">Ecosystem Expanding</li>
                     <li className="text-[18px]">Will be updated and revealed!</li>
-                </div>
+                </div> */}
             </div>
         </div>
     );

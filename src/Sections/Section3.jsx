@@ -53,7 +53,7 @@ function Section3() {
                 </div>
 
                 <div>
-                    <img src={Phone} alt="" />
+                    <img className='mx-auto' src={Phone} alt="" />
                 </div>
             </div>
 

@@ -5,8 +5,8 @@ function Section4() {
         <div className='text-white mx-auto'>
             <div className='grid md:grid-cols-2 '>
                 <img className='mx-auto' src={chart} alt="" />
-                <div className='px-11 w-3/4 '>
-                    <div className='text-6xl font-bold py-10'>Token Allocation</div>
+                <div className='px-11 w-3/4 mx-auto'>
+                    <div className='text-6xl font-bold py-5'>Token Allocation</div>
                     <div className='font-medium py-2'>The MHUB token distribution strategy is designed to ensure the project's longevity and
                         continuous growth. The allocation of the total supply of MHUB tokens is divided strategically
                         to support the optimal development, promotion, and operation of the project. The distribution
