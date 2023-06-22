@@ -9,9 +9,9 @@ import together from '../Assets/Images/Together-Section5.png'
 
 function Section5() {
     return (
-        <div className='text-white'>
-            <div className='grid md:grid-cols-2 '>
-                <div className='mx-10 my-16 '>
+        <div className='text-white py-52'>
+            <div className='grid desktop:grid-cols-2 grid-cols-1'>
+                <div className='mx-auto py-16 w-2/3'>
                     <div className='py-5'>
                         <div className='flex'><div className='text-5xl font-bold'>How to&nbsp;</div>
                         <div className='text-[#50C6FB] text-5xl font-bold'> Buy & Sell</div></div>
@@ -19,7 +19,7 @@ function Section5() {
                     
                     <div className='flex '>
                         <div>
-                            <img className='h-20 w-20' src={phone} alt="" />
+                            <img className='h-20 w-28' src={phone} alt="" />
                         </div>
                         <div className='font-medium text-2xl px-5'>
                             <div className='text-[#50C6FB]'>Download & setup UniSat Wallet</div>
@@ -28,7 +28,7 @@ function Section5() {
                     </div>
                     <div className='flex '>
                         <div>
-                            <img className='h-20 w-20' src={stonk} alt="" />
+                            <img className='h-20 w-32' src={stonk} alt="" />
                         </div>
                         <div className='font-medium text-2xl px-5'>
                             <div className='text-[#50C6FB]'>Buy and send BTC to UniSat</div>
@@ -37,7 +37,7 @@ function Section5() {
                     </div>
                     <div className='flex '>
                         <div>
-                            <img className='h-20 w-36' src={click} alt="" />
+                            <img className='h-20 w-56' src={click} alt="" />
                         </div>
                         <div className='font-medium text-2xl px-5'>
                             <div className='text-[#50C6FB]'>Head on to MagicHub and swap for $MHUB</div>
@@ -46,7 +46,7 @@ function Section5() {
                     </div>
                     <div className='flex '>
                         <div>
-                            <img className='h-20 w-20' src={together} alt="" />
+                            <img className='h-20 w-28' src={together} alt="" />
                         </div>
                         <div className='font-medium text-2xl px-5'>
                             <div className='text-[#50C6FB]'>View all state</div>

@@ -5,9 +5,9 @@ import Facebook from '../Assets/Images/Facebook.png'
 import logo from '../Assets/Images/Logo.png'
 function Footer() {
   return (
-    <footer className='text-white '>
-        <div className='mx-auto py-10'>
-                <ul className='flex justify-center underline text-'>
+    <footer className='text-white mobile:pt-96  desktop:pt-0'>
+        <div className='mx-auto '>
+                <ul className='flex justify-center underline '>
                     <li className='px-2'>Home</li>
                     <li className='px-2'>About Us</li>
                     <li className='px-2'>Tokenomics</li>

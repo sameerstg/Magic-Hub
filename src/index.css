@@ -30,13 +30,14 @@ body{
 
 .buynow-button{
 
-padding: 8px 45.98px 8px 46.02px;
+/* padding: 8px 45.98px 8px 46.02px; */
 
-
-width: 165px;
+text-align: center;
+ 
+/* width: 165px;
 height: 50px;
 left: 613px;
-top: 2px;
+top: 1px; */
 
 background: radial-gradient(50% 50% at 50% 50%, #033A61 0%, #000C18 100%);
 border: 2px solid #FFFFFF;
@@ -45,23 +46,23 @@ border-radius: 7px 0px 7px 7px;
 }
 .navbar-button{
   /* position: absolute; */
-  width: 80px;
+  /* width: 80px;
   height: 34px;
   left: -18px;
-  top: 3px;
+  top: 3px; */
   
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 34px;
+ 
   /* identical to box height, or 189% */
   
  
   
-  text-decoration-line: underline;
   
-  color: #060132;
+  
+  
 }
 
 .hero{
@@ -80,10 +81,7 @@ border-radius: 7px 0px 7px 7px;
 }
 .border-box-section3{
   
-width: 519px;
-height: 560px;
-left: 155px;
-top: 1732px;
+
 
 background: #06192C;
 border: 2px solid #50C6FB;
@@ -92,10 +90,10 @@ border-radius: 20px;
 }
 .box-section6{
   
-width: 413px;
+/* width: 413px;
 height: 362px;
 left: 75px;
-top: 4272px;
+top: 4272px; */
 
 background: #06192C;
 border: 2px solid #50C6FB;

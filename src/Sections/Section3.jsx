@@ -1,14 +1,15 @@
 import React from 'react'
 import Phone from '../Assets/Images/Phone-Section3.png'
 function Section3() {
+    
     return (
-        <div className='text-white'>
-            <div className='grid md:grid-cols-2 '>
-                <div>
-                    <div className='mx-auto w-1/2 ' >
+        <div className='text-white h-screen mobile:my-96 laptop:my-96 desktop:my-0'>
+            <div className='grid desktop:grid-cols-2 grid-cols-1 justify-center align-middle'>
+                <div className='mx-10'>
+                    <div className='mx-auto text-center ' >
                     
-                        <div className='font-bold text-6xl'>Tokenomics</div>
-                        <div className='font-medium text-2xl'>Tokenomics of MHUB</div>
+                        <div className='font-bold text-6xl py-5'>Tokenomics</div>
+                        <div className='font-medium text-2xl py-4'>Tokenomics of MHUB</div>
                         </div>
                     <div className='border-box-section3 p-7 font-medium mx-auto'>
 

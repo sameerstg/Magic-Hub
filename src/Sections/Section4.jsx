@@ -2,9 +2,9 @@ import React from 'react'
 import chart from '../Assets/Images/Piechart-section4.png'
 function Section4() {
     return (
-        <div className='text-white mx-auto'>
-            <div className='grid md:grid-cols-2 '>
-                <img className='mx-auto' src={chart} alt="" />
+        <div className='text-white w-full mx-auto py-56'>
+            <div className='grid desktop:grid-cols-2 grid-cols-1'>
+                <img className='mx-auto px-6' src={chart} alt="" />
                 <div className='px-11 w-3/4 mx-auto'>
                     <div className='text-6xl font-bold py-5'>Token Allocation</div>
                     <div className='font-medium py-2'>The MHUB token distribution strategy is designed to ensure the project's longevity and
