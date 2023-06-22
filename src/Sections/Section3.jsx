@@ -3,7 +3,7 @@ import Phone from '../Assets/Images/Phone-Section3.png'
 function Section3() {
     
     return (
-        <div className='text-white h-screen mobile:my-96 laptop:my-96 desktop:my-0'>
+        <div className='text-white mb-60 tablet:mb-0  h-screen mobile:mb-32 mobile:mt-44 laptop:my-96 desktop:my-0'>
             <div className='grid desktop:grid-cols-2 grid-cols-1 justify-center align-middle'>
                 <div className='mx-10'>
                     <div className='mx-auto text-center ' >
@@ -54,7 +54,7 @@ function Section3() {
                 </div>
 
                 <div>
-                    <img className='mx-auto' src={Phone} alt="" />
+                    <img className='mx-auto tablet:px-9 px-12'  src={Phone} alt="" />
                 </div>
             </div>
 

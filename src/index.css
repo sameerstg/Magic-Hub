@@ -6,6 +6,9 @@ body{
   background: linear-gradient(to right,  #02162A 42.01%, #023955 95.76%);
  
 }
+.coin{
+  background-size: cover;
+}
 .navbar {
 
   -webkit-mask-image: url(.//Assets/Images/Nav2-bg.png); 

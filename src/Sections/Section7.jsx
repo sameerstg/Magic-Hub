@@ -6,13 +6,13 @@ import p4 from "../Assets/Images/Phase4-Section7.png";
 
 function Section7() {
     return (
-        <div className="text-white px-6 h-screen mobile:my-96 tablet:mb-96 laptop:mt-96 laptop:mb-96 desktop:mb-0" >
-            <div className="px-28 text-6xl font-bold">RoadMap</div>
+        <div className="text-white px-6 mt-96 mobile:mt-40 talbet:mt-28 laptop:mt-0  mobile:mb-0   laptop:mb-0" >
+            <div className="px-9 tablet:pb-0 mb-20 text-6xl font-bold">RoadMap</div>
             <div className=" grid desktop:grid-cols-4 laptop:grid-cols-2 mobile:grid-cols-2">
                 <div className="mx-auto py-2 laptop:w-96">
-                    <img src={p1} alt="" />
+                    <img  src={p1} className="pb-10" alt="" />
 
-                    <div className="text-[#4EC0F4] text-[25px] font-semibold">
+                    <div className="text-[#4EC0F4] text-[25px] font-semibold pb-3">
                         Research and Development
                     </div>
                     <li className="text-[18px]">Market Research</li>
@@ -23,8 +23,8 @@ function Section7() {
                 </div>
 
                 <div className="mx-auto py-20 laptop:w-96">
-                    <img src={p2} alt="" />
-                    <div className="text-[#6B85E2] text-[25px] font-semibold">
+                    <img src={p2} className="pb-10" alt="" />
+                    <div className="text-[#6B85E2] text-[25px] font-semibold pb-3">
                         MagicHub V1.0 Launch
                     </div>
                     <li className="text-[18px]">User documentation
@@ -45,8 +45,8 @@ function Section7() {
                 </div>
 
                 <div className="mx-auto laptop:w-96">
-                    <img className="" src={p3} alt="" />{" "}
-                    <div className="text-[#E4A74A] text-[25px] font-semibold mx-auto w-full">
+                    <img className="pb-10" src={p3}  alt="" />{" "}
+                    <div className="text-[#E4A74A] text-[25px] font-semibold mx-auto w-full pb-3">
                         Ecosystem Expanding Development
                     </div>
                     <li className="text-[18px]">GameFi Features Development
@@ -57,8 +57,8 @@ function Section7() {
 
                 </div>
                 <div className="mx-auto laptop:w-96 py-24">
-                    <img className="mx-auto" src={p4} alt="" />{" "}
-                    <div className="text-[#E4A74A] text-[25px] font-semibold mx-auto ">
+                    <img className="mx-auto pb-10" src={p4} alt="" />{" "}
+                    <div className="text-[#E4A74A] text-[25px] font-semibold mx-auto pb-3">
                     GameFi Features Released and Ecosystem Expanding
 
                     </div>

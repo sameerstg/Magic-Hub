@@ -5,12 +5,13 @@ import shield from '../Assets/Images/Shield-Section2.png'
 
 function Section2() {
   return (
-    <div className=' text-white w-full my-96 h-screen'>
+    <div className=' text-white w-full my-0  laptop:-mt-36'>
       <div className=''>
-        <div className=' grid desktop:grid-cols-2 grid-cols-1 '>
+        <div className=' grid desktop:grid-cols-2 grid-cols-1'>
 
           <img className='mx-auto' src={World} alt="" />
-          <div className='flex w-full flex-col justify-center px-48'>
+          
+          <div className='flex w-full flex-col justify-center px-5 mobile:px-10 tablet:px-28 laptop:px-48'>
             <h1 className="font-bold text-5xl py-5">Fastest & Safe</h1>
             <div>
               <ul className=' mx-auto w-full'>
@@ -18,7 +19,7 @@ function Section2() {
                 <li>
 
 
-                  <div className='text-xl w-full font-bold text-[#4AB8E9]'>Instant Trading:</div>
+                  <div className='text-xl w-full font-bold  text-[#4AB8E9]'>Instant Trading:</div>
                   <div>You can engage in trades instantly, irrespective of the transaction amount,
                     allowing for quick and efficient trading experiences. By eliminating the waiting time
                     for transaction confirmations, you can save valuable time and execute trades promptly,

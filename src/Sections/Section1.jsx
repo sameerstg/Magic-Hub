@@ -3,12 +3,12 @@ import Coin from '../Assets/Images/Coin-Hero.png'
 import Twitter from '../Assets/Images/Twitter.png'
 import Discord from '../Assets/Images/Discord.png'
 import Facebook from '../Assets/Images/Facebook.png'
-import RoundButton from '../Components/RoundButton'
+
 function Section1() {
     return (
-        <div className='mb-96 text-white mx-auto w-full grid desktop:grid-cols-2 grid-cols-1 h-screen'>
+        <div className=' text-white mx-auto w-full grid desktop:grid-cols-2 grid-cols-1 '>
 
-            <div className='flex mx-auto w-full flex-col justify-center px-40'>
+            <div className='flex mx-auto w-full flex-col justify-center px-5 mobile:px-10 tablet:px-40'>
                 <h1 className="font-bold  text-5xl py-5">Magic Hub (MHUB)</h1>
                 <p className="break-normal mx-auto text-2xl ">
                     Magic Hub (MHUB) is an innovative digital asset initiative at the
@@ -27,7 +27,7 @@ function Section1() {
                         <img className='h-8' src={Facebook} alt="" />
                     </li>
                 </ul>
-                <ul className='flex flex-row'>
+                <ul className='flex flex-row flex-wrap'>
                     <li className=''>
                     <div className='text-center w-44 h-16 py-4 px-auto mx-3 my-1 text-[#FFB652]   font-bold border-[#FFB652]  rounded-full border-2 '>
                     Buy Tokens
@@ -40,7 +40,7 @@ function Section1() {
                     </li>
                 </ul>
             </div>
-            <img className='w-full mx-auto justify-center' src={Coin} alt="" />
+            <img  className='coin w-full mx-auto justify-center' src={Coin} alt="" />
 
         </div>
 
