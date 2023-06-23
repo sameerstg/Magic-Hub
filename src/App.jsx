@@ -4,15 +4,18 @@ import Navbar from "./Sections/Navbar";
 import Footer from "./Sections/Footer";
 import Section1 from "./Sections/Section1";
 import Section2 from "./Sections/Section2";
-import Section3 from "./Sections/Section3";
-import Section4 from "./Sections/Section4";
-import Section5 from "./Sections/Section5";
-import Section6 from "./Sections/Section6";
-import Section7 from "./Sections/Section7";
+import Section3 from "./Sections/Tokenomics";
+import Section4 from "./Sections/Chart";
+import Section5 from "./Sections/HowTo";
+import Section6 from "./Sections/Usecase";
+import Section7 from "./Sections/Roadmap";
+
 
 function App() {
   return (
-    <div>
+    <div >
+                      
+
       <Navbar/>
       <Section1/>
       <Section2/>

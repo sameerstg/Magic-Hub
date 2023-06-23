@@ -1,19 +1,19 @@
 import React from 'react'
-import exchange from '../Assets/Images/Exchange-Section6.png'
-import controller from '../Assets/Images/Controller-Section6.png'
-import blocks from '../Assets/Images/Blocks-Section6.png'
+import exchange from '../Assets/Images/Exchange-Section6.svg'
+import controller from '../Assets/Images/Controller-Section6.svg'
+import blocks from '../Assets/Images/Blocks-Section6.svg'
 
 function Section6() {
     return (
-        <div className='text-white mt-60 mobile:mt-96 tablet:mt-0  h-screen w-full  flex flex-col justify-center items-center'>
+        <div className='text-white mt-9 mobile:mt-96 tablet:mt-0   w-full  flex flex-col '>
 
-            <div className='font-bold text-6xl py-9 w-full text-center'>Use Cases</div>
-            <div className='flex desktop:flex-row flex-col  justify-center items-center align-middle'>
+            <div className='font-bold text-6xl pb-9 w-full text-center'>Use Cases</div>
+            <div className='flex desktop:flex-row flex-col gap-y-10 gap-x-5 mx-10 justify-start  '>
                 
 
-            <div className='box-section6 mx-5  desktop:my-0 my-5   desktop:px-5 '>
-                    <div className='p-10 '>
-                        <img className='mx-auto' src={exchange} alt="" />
+            <div className='box-section6    desktop:px-5 '>
+                    <div className='p-5 tablet:p-5 '>
+                        <img className='mx-auto pb-3 w-30 ' src={exchange} alt="" />
                         <div className='font-bold text-2xl'>The Core of Magic Hub
 
                         </div>
@@ -26,9 +26,9 @@ function Section6() {
                     </div>
 
                 </div>
-                <div className='box-section6 mx-5   desktop:my-0 my-5   desktop:px-5'>
-                    <div className='p-10'>
-                        <img className='mx-auto' src={controller} alt="" />
+                <div className='box-section6    desktop:px-5 '>
+                    <div className='p-5 tablet:p-5'>
+                        <img className='mx-auto pb-3 w-30 ' src={controller} alt="" />
                         <div className='font-bold text-2xl'>Play-to-Earn (P2E) Gaming: Embrace the Future of Gaming with Magic Hub
 
                         </div>
@@ -39,9 +39,9 @@ function Section6() {
                     </div>
 
                 </div>
-                <div className='box-section6 mx-5  desktop:my-0 my-5     desktop:px-5'>
-                    <div className='p-10'>
-                        <img className='mx-auto ' src={blocks} alt="" />
+                <div className='box-section6        desktop:px-5'>
+                    <div className='p-5 tablet:p-5'>
+                        <img className='mx-auto pb-3 w-30 ' src={blocks} alt="" />
                         <div className='font-bold text-2xl'>Multi-Chain Token Mechanism
 
                         </div>

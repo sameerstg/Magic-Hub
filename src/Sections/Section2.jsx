@@ -5,7 +5,7 @@ import shield from '../Assets/Images/Shield-Section2.png'
 
 function Section2() {
   return (
-    <div className=' text-white w-full my-0  laptop:-mt-36'>
+    <div className=' text-white w-full my-0 -mt-0 desktop:-mt-36'>
       <div className=''>
         <div className=' grid desktop:grid-cols-2 grid-cols-1'>
 
@@ -43,7 +43,7 @@ function Section2() {
               </div>
 
             </div>
-            <div className='py-4 px-12 my-6 text-center   text-[#FFB652] w-max   font-bold border-[#FFB652]  rounded-full border-2 '>
+            <div className='py-4 px-12 my-6 text-center mx-auto tablet:mx-0  text-[#FFB652] w-max   font-bold border-[#FFB652]  rounded-full border-2 '>
               JOIN US NOW
             </div>
 

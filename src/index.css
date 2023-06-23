@@ -103,3 +103,15 @@ border: 2px solid #50C6FB;
 box-shadow: 0px 0px 10px #50C6FB;
 border-radius: 20px;
 }
+.bottom-bg{
+
+  
+  /* background-image: url("./Assets/Images/Bg-bottom.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: left; */
+  /* position: absolute; */
+  /* width: 100%; */
+  /* top: 175%; */
+
+  opacity: 1;
+}
