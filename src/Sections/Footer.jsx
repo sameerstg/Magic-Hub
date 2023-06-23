@@ -1,8 +1,8 @@
 import React from 'react'
-import Twitter from '../Assets/Images/Twitter.png'
-import Discord from '../Assets/Images/Discord.png'
-import Facebook from '../Assets/Images/Facebook.png'
-import logo from '../Assets/Images/Logo.png'
+import Twitter from '../Assets/Images/Twitter.svg'
+import Discord from '../Assets/Images/Discord.svg'
+import Facebook from '../Assets/Images/Facebook.svg'
+import logo from '../Assets/Images/Logo.svg'
 function Footer() {
   return (
     <footer className='text-white mx-auto mobile:pt-0  desktop:pt-0'>
@@ -24,13 +24,13 @@ function Footer() {
                 </div>
                     <ul className="flex my-5 py-4 justify-center ">
                         <li className=' mx-6'>
-                        <img className='h-6' src={Twitter} alt="" />
+                        <img className='h-10' src={Twitter} alt="" />
                         </li>
                         <li className=' mx-6'>
-                        <img className='h-6' src={Discord} alt="" />
+                        <img className='h-10' src={Discord} alt="" />
                         </li>
                         <li className=' mx-6'> 
-                        <img className='h-6' src={Facebook} alt="" />
+                        <img className='h-10' src={Facebook} alt="" />
                         </li>
                     </ul>
                     <div className='flex w-full mx-auto justify-center mb-24 mobile:mb-10'>

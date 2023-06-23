@@ -6,10 +6,22 @@ body{
   background: linear-gradient(to right,  #02162A 42.01%, #023955 95.76%);
  
 }
+.drawer{
+  background: linear-gradient(to left,  #92c6f9 42.01%, #7ea8bd 95.76%);
+  background-size: cover;
+}
 .coin{
   background-size: cover;
 }
-.navbar {
+.lc{
+  background-image: url('./Assets/Images/L-half.svg');
+  background-repeat: no-repeat;
+  
+  /* background-position-y: 0px;
+  background-position-x: 0px; */
+  
+}
+/* .navbar {
 
   -webkit-mask-image: url(.//Assets/Images/Nav2-bg.png); 
   mask-image: url(.//Assets/Images/Nav2-bg.png);
@@ -17,19 +29,39 @@ body{
   -webkit-mask-repeat: no-repeat ;
   mask-repeat: no-repeat;
   -webkit-mask-position: 50% 0%;
-  mask-position : 50% 0%;
-  
-  
-  
-  
-  
-  
+  mask-position : 50% 0%;  
+} */
+@media screen and (min-width: 1280px) {
+  .navbar {
+
+    -webkit-mask-image: url(.//Assets/Images/Nav2-bg.png); 
+    mask-image: url(.//Assets/Images/Nav2-bg.png);
+    background-color: #86CFF0;
+    -webkit-mask-repeat: no-repeat ;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: 50% 0%;
+    mask-position : 50% 0%;
 
 
-
-  
-  
+  }
 }
+.bg-section2{
+  background-image: url(./Assets/Images/Bg-Section2.svg);
+  background-position: 100% 100%;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  .world-to-roadmap{
+    background-image: url(./Assets/Images/World-to-roadmap-bg.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+    background-repeat: no-repeat;
+  }
+
+
 
 .buynow-button{
 
@@ -58,38 +90,19 @@ border-radius: 7px 0px 7px 7px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
- 
-  /* identical to box height, or 189% */
-  
- 
-  
-  
-  
-  
+  /* identical to box height, or 189% */ 
 }
 
 .hero{
-  
   background-repeat: no-repeat;
-  
   background-image: url("../src/Assets/Images/Coin-Hero.png");
-  
-
-
 }
-.section2-icon{
-  height: 40px;
-  width: 40px;
 
-}
 .border-box-section3{
-  
-
-
-background: #06192C;
-border: 2px solid #50C6FB;
-box-shadow: 0px 0px 10px #50C6FB;
-border-radius: 20px;
+  background: #06192C;
+  border: 2px solid #50C6FB;
+  box-shadow: 0px 0px 10px #50C6FB;
+  border-radius: 20px;
 }
 .box-section6{
   
