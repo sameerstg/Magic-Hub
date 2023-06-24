@@ -9,27 +9,7 @@ body{
 .coin{
   background-size: cover;
 }
-.navbar {
 
-  -webkit-mask-image: url(.//Assets/Images/Nav2-bg.png); 
-  mask-image: url(.//Assets/Images/Nav2-bg.png);
-  background-color: #86CFF0;
-  -webkit-mask-repeat: no-repeat ;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: 50% 0%;
-  mask-position : 50% 0%;
-  
-  
-  
-  
-  
-  
-
-
-
-  
-  
-}
 
 .buynow-button{
 
@@ -114,4 +94,19 @@ border-radius: 20px;
   /* top: 175%; */
 
   opacity: 1;
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+
+    -webkit-mask-image: url(.//Assets/Images/Nav2-bg.png); 
+    mask-image: url(.//Assets/Images/Nav2-bg.png);
+    background-color: #86CFF0;
+    -webkit-mask-repeat: no-repeat ;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: 50% 0%;
+    mask-position : 50% 0%;
+    
+    
+  }
 }
